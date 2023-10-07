@@ -1,4 +1,3 @@
-from asyncio.windows_events import NULL
 import googlemaps
 import gmaps
 from datetime import datetime
