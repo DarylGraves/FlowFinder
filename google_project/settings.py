@@ -28,7 +28,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # Environmental Variables:
 SECRET_KEY = os.environ.get("SECRET_KEY")
 GOOGLE_API_KEY = os.environ.get('GOOGLE_API_KEY')
-DEBUG = os.environ.get('DJANGO_DEBUG', '') != 'False'
+DEBUG = os.environ.get('DEBUG', '') != 'False'
 
 DB_NAME = os.environ.get("DB_NAME")
 DB_USER = os.environ.get("DB_USER")
@@ -38,7 +38,7 @@ DB_PORT = os.environ.get("DB_PORT")
 
 BASE_COUNTRY = 'US' # For Google Maps
 
-ALLOWED_HOSTS = ['flowfinder.azurewebsites.net', 'flowfinder.darylgraves.com']
+ALLOWED_HOSTS = ['flowfinder.azurewebsites.net', 'flowfinder.darylgraves.com', '127.0.0.1']
 
 # Application definition
 
