@@ -12,6 +12,9 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY . code
 WORKDIR /code
 
+# Set up Static files
+RUN python manage.py  collectstatic
+
 EXPOSE 8000
 
 # runs the production server
