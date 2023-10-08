@@ -38,7 +38,7 @@ DB_PORT = os.environ.get("DB_PORT")
 
 BASE_COUNTRY = 'US' # For Google Maps
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['flowfinder.azurewebsites.net', 'flowfinder.darylgraves.com']
 
 # Application definition
 
